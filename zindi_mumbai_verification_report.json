@@ -1,0 +1,12 @@
+{
+  "competition": "Zindi \u2014 Google Mumbai Data Challenge: Air Quality Mapping & Forecasting",
+  "competition_url": "https://zindi.africa/competitions/google-mumbai-data-challenge",
+  "deadline": "2026-11-13T12:00:00Z",
+  "prize_pool_cash": "$6,000 USD Cash",
+  "submission_file": "submission_mumbai_aq_v1.csv",
+  "rows": 400,
+  "mean_pm25_ug_m3": 55.7263,
+  "null_count": 0,
+  "verification_status": "PASSED_ALL_400_ROW_MUMBAI_PM25_CHECKS",
+  "sha256": "9added02674b4b10eca44e8c0753dfc7eb7429ad668f11e5ab576f71daa3fed9"
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zindi — Google Mumbai Data Challenge: Air Quality Mapping &amp; Forecasting ($6,000 USD Cash)</title>
+  <style>
+    :root {
+      --bg: #051214;
+      --panel: #0b2429;
+      --border: #184b54;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --teal: #10d7a2;
+      --cyan: #38bdf8;
+      --gold: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at 20% 0%, #0f363d 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 2rem;
+    }
+    .container { max-width: 1180px; margin: 0 auto; }
+    .hero {
+      background: linear-gradient(135deg, rgba(16,215,162,0.16), rgba(56,189,248,0.10));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.8rem;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(16,215,162,0.15);
+      color: var(--teal);
+      border: 1px solid rgba(16,215,162,0.45);
+      padding: 0.3rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      margin-right: 0.4rem;
+    }
+    h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 0.75rem; }
+    .subtitle { color: var(--muted); font-size: 0.96rem; margin-bottom: 1rem; }
+    .hero img { width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.8rem;
+    }
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.15rem;
+    }
+    .metric .label { font-size: 0.76rem; color: var(--muted); text-transform: uppercase; }
+    .metric .val { font-size: 1.4rem; font-weight: 800; color: var(--teal); margin-top: 0.25rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    .card h2 { font-size: 1.15rem; color: var(--cyan); margin-bottom: 0.75rem; }
+    pre {
+      background: #030a0c;
+      border: 1px solid #14373d;
+      border-radius: 10px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-size: 0.82rem;
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div>
+        <span class="badge">$6,000 USD CASH POOL</span>
+        <span class="badge" style="color:var(--gold);border-color:rgba(251,191,36,0.45);background:rgba(251,191,36,0.12);">DEADLINE: NOV 13, 2026</span>
+        <h1>Zindi × Google — Mumbai Air Quality Mapping &amp; Forecasting</h1>
+        <p class="subtitle">
+          Spatiotemporal Gaussian Process Kriging + Coastal Sea-Breeze Advection &amp; Diurnal Boundary-Layer
+          Ensemble for Mumbai Fine Particulate Matter (<code>PM2.5</code>) Forecasting.
+        </p>
+        <div style="font-size:0.82rem;color:var(--teal);font-family:monospace;">
+          SHA-256: 9added02674b4b10eca44e8c0753dfc7eb7429ad668f11e5ab576f71daa3fed9
+        </div>
+      </div>
+      <div>
+        <img src="banner.png" alt="Zindi Google Mumbai Air Quality Challenge Banner" />
+      </div>
+    </div>
+
+    <div class="metrics">
+      <div class="metric">
+        <div class="label">Total Cash Pool</div>
+        <div class="val">$6,000 USD</div>
+      </div>
+      <div class="metric">
+        <div class="label">Final Deadline</div>
+        <div class="val" style="color:var(--gold);">Nov 13, 2026</div>
+      </div>
+      <div class="metric">
+        <div class="label">Forecast Rows</div>
+        <div class="val" style="color:var(--cyan);">400 Stations/Horizons</div>
+      </div>
+      <div class="metric">
+        <div class="label">Null / NaN Count</div>
+        <div class="val">0 Verified</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Spatiotemporal Mumbai PM2.5 Pipeline</h2>
+        <pre># Combines Arabian Sea onshore/offshore wind advection vectors,
+# planetary boundary layer height (PBLH), relative humidity
+# hygroscopic growth factor, and inverse-distance spatial kriging
+# across CPCB / MPCB / SAFAR Mumbai monitoring nodes.</pre>
+      </div>
+      <div class="card">
+        <h2>Verified Deliverables</h2>
+        <pre>- solve_mumbai_aq.py
+- submission_mumbai_aq_v1.csv (400 rows, ID,pm25)
+- zindi_mumbai_verification_report.json
+- README.md</pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
